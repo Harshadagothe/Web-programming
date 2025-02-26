@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Conservation Blog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-image: url('forest-background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white; 
+            font-size: 16px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(141, 160, 143, 0.5);
+            border-radius: 10px;
+        }
+        h1 {
+            margin: 20px 0;
+            color: #31ba66; 
+            font-size: 3em;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card:hover img {
+            transform: scale(1.1);
+        }
+        .content {
+            padding: 10px;
+        }
+        .content p {
+            color: #110f0f;
+        }
+        a {
+            color: #95af9f;             text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Forest Conservation</h1>
+        <p>Forests are an important natural resource and are beneficial to humans in several ways.
+            Forests preserve the ecological diversity and our life support systems water, air and soil.
+            Forests preserve the genetic diversity of plants and animals for better growth of species and breeding.
+            Forests play an effective role in controlling temperature, humidity and precipitation.
+            Due to increasing deforestation activities, it has become essential to conserve forests throughout the world.</p>
+        <div class="flex-container">
+            <div class="card">
+                <img src="image1.jpg" alt="Forest">
+                <div class="content">
+                    <h3>Why Conserve Forests?</h3>
+                    <p>Forest Conservation refers to the protection, preservation, and sustainable management of forests to maintain their biodiversity, ecological balance, and benefits for future generations. It involves preventing deforestation, restoring degraded forests, and promoting responsible use of forest resources. <a href="Conserve.html"><strong>Read More</strong></a></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image2.avif" alt="trees">
+                <div class="content">
+                    <h3>Deforestation Impact</h3>
+                    <p>Cutting trees leads to loss of habitat and climate change" refers to the consequences of deforestation, which occurs when trees are removed from forests for various human activities like agriculture, logging, or urban development.<a href="trees.html"><strong>Read More</strong></a> </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image 3.jpg" alt="Nature">
+                <div class="content">
+                    <h3>How Can We Help?</h3>
+                    <p>Plant more trees and support reforestation efforts. <a href="Help.html"><strong>Read More</strong></a> </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image4.webp" alt="Practices">
+                <div class="content">
+                    <h3>Sustainable Practices</h3>
+                    <p>Using eco-friendly products and reducing waste help protect forests. <a href="practice.html"><strong>Read More</strong></a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
